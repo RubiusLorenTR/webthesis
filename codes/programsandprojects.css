@@ -70,19 +70,20 @@
     align-items: center;
     flex-shrink: 0;
 }
-
+.here {
+    color: var(--primary-color)!important;
+    font-weight: bold;
+}
 /*navbar inssuannces*/
 .Issuances-dropdown {
     position: relative;
 }
-
 .Issuances-dropdown > a {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     cursor: pointer;
 }
-
 .Issuances-dropdown > a::after {
     content: "";
     width: 7px;
@@ -92,11 +93,9 @@
     transform: rotate(-135deg);
     transition: transform 0.2s ease;
 }
-
 .Issuances-dropdown:hover > a::after {
     transform: rotate(45deg);
 }
-
 .Issuances-dropdownmenu {
     display: none;
     position: absolute;
@@ -111,33 +110,27 @@
     z-index: 1000;
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
-
 .Issuances-dropdownmenu li {
     float: none;
     width: 100%;
     border-bottom: 2px solid #d9d9d9;
     list-style: none;
 }
-
 .Issuances-dropdownmenu li:last-child {
     border-bottom: none;
 }
-
 .Issuances-dropdownmenu a {
     display: block;
     padding: 12px 10px;
     color: var(--text-color);
     text-align: center;
 }
-
 .Issuances-dropdownmenu a:hover {
     color: var(--primary-color);
 }
-
 .Issuances-dropdown:hover .Issuances-dropdownmenu {
     display: block;
 }
-
 /*login button*/
 .login-btn {
     float: none;
@@ -151,12 +144,10 @@
     white-space: nowrap;
     transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
-
 .login-btn:hover {
     background-color: var(--secondary-color);
     transform: scale(1.05);
 }
-
 .login-modal {
     display: none;
     position: fixed;
@@ -166,7 +157,6 @@
     align-items: center;
     z-index: 2000;
 }
-
 .login-box {
     background-color: var(--background-color);
     width: 350px;
@@ -176,7 +166,6 @@
     position: relative;
     font-family: Arial, sans-serif;
 }
-
 .close-btn {
     position: absolute;
     top: 10px;
@@ -184,23 +173,19 @@
     font-size: 26px;
     cursor: pointer;
 }
-
 .login-logo {
     height: 60px;
     width: auto;
     margin-bottom: 10px;
 }
-
 .login-box h2 {
     margin-bottom: 5px;
     color: var(--primary-color);
 }
-
 .login-box p {
     color: var(--text-color);
     margin-bottom: 20px;
 }
-
 .microsoft-btn {
     width: 100%;
     padding: 12px;
@@ -210,7 +195,6 @@
     cursor: pointer;
     font-size: 15px;
 }
-
 .microsoft-btn:hover {
     background-color: var(--background-color);
 }
@@ -242,7 +226,6 @@
     object-fit: cover;
     vertical-align: right;
 }
-
 /* Footer */
 footer {
     width: 100%;

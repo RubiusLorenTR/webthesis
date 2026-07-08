@@ -70,7 +70,10 @@
     align-items: center;
     flex-shrink: 0;
 }
-
+.here {
+    color: var(--primary-color)!important;
+    font-weight: bold;
+}
 /*navbar inssuannces*/
 .Issuances-dropdown {
     position: relative;
